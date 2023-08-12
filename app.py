@@ -10,7 +10,7 @@ CORS(app)
 
 # basedir = os.path.abspath(os.path.dirname(__file__))
 # app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///" + os.path.join(basedir, "app.sqlite")
-app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://mosuvwsmaoxrmc:e4dcf0233a80afb9eb4f5af480257727ba4cc12b969769e9d2591894993cb6f2@ec2-3-234-204-26.compute-1.amazonaws.com:5432/daf9qcfq9e8upa"
+app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://ucjxxoboyqraxs:ec98e551507267b723456fd70a8c36eebc1657de4c23920ec35d0804d3c54686@ec2-34-233-242-44.compute-1.amazonaws.com:5432/d1mst32esj5m6a"
 
 db = SQLAlchemy(app)
 ma = Marshmallow(app)
